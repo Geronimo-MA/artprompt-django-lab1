@@ -5,3 +5,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('artprompt.urls')),
 ]
+handler404 = 'artprompt.views.page_not_found'
